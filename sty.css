@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body, html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: 'Arsenal SC';
+    font-size: large;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.background {
+    background-image: url('https://i.pinimg.com/564x/81/30/7e/81307e30e5413ec930dd73208538ccc1.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+.container {
+    background-color: rgba(249, 241, 241, 0.412);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+}
+
+h1 {
+    font-family: "Great Vibes",cursive;
+    font-size: 3em;
+    margin-bottom: 5px;
+    color: hwb(275 8% 27%);
+}
+#quote {
+    font-family:"Tiro Devanagari Hindi",bold;
+    font-size: 23px;
+    margin-top: 1px;
+    text-align: center;
+    color: #0d0a05;
+      
+}
+#meaning{
+    font-family: "Cinzel";
+    font-size: 20px;
+    text-align: center;
+}
+#motivation{
+    font-family: "Playwrite Chile";
+    font-size: 20px;
+    text-align: center;
+}
+
+#quote-box {
+    
+    padding: 1px;
+    border-radius: 1px;
+    margin-bottom: 1px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: hwb(271 2% 10%);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #8a2be2;
+}
+
+
